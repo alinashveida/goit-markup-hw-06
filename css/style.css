@@ -845,7 +845,11 @@ padding: 20px 24px;
 }
 
   .modal-form-comment::placeholder{
-    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-policy-text::before{
